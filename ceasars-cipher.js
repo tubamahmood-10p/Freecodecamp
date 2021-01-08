@@ -25,4 +25,4 @@ for (var i = 0; i < str.length; i++) {
 return j.join("");
 }
 
-rot13("SERR PBQR PNZC?");
+console.log(rot13("SERR PBQR PNZC?"));

@@ -11,4 +11,4 @@ var $sum=0;
   return $sum;
 }
 
-sumAll([1, 4]);
+console.log(sumAll([1, 4]));
