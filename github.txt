@@ -1,0 +1,35 @@
+git --version .......... version
+
+
+mkdir edureka-repository   ......make a folder
+
+cd edureka-repository
+
+
+notepad edureka.py  ........creating a file 
+
+
+git add edureka.py......adding this file to staging area
+
+git add . ..... adding all files to staging area .....we can only commit in staging area.
+
+git commit -m "firstcommit".....transfering to local repository
+
+git status
+
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+
+git branch .......see the list of branch
+git branch secondbranch .......creating a branch
+git branch -d secondbranch   ....deleting a branch
+
+
+git checkout secondbranch  .....switch to secondbranch......bydefault we are always in master branch
+
+git remote add origin  https://github.com/tubamahmood-10p/Freecodecamp.git...connect local to remote revository
+
+git push -u origin master
+git clone https://github.com/ubaidbaig-10p/full-spec-devops-nodejs
+
+git restore .
